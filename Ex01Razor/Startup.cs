@@ -47,7 +47,7 @@ namespace Ex01Razor
             }
 
             app.UseStaticFiles();
-            app.UseCookiePolicy();
+            //app.UseCookiePolicy();
 
             app.UseMvc();
         }
